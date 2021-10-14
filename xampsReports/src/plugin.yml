@@ -1,0 +1,5 @@
+name: xampsreports
+version: 1.0
+main: br.poa.zambiasi.xampsreports.Main
+author: xampS
+commands:

@@ -1,0 +1,338 @@
+#
+# xampsRanks 1.0 - 07/2020
+# Desenvolvido por xamps#0443
+#
+
+# Placeholder Legendchat: {xampsranks}
+
+# Configuração do MySQL
+mysql:
+  database: 'collection_Gx0a5F'
+  host: '144.217.10.143'
+  porta: '3306'
+  user: 'india-9K%3s!NYJw'
+  senha: 'CCmBW62PC!Ca('
+
+# Mensagens gerais do plugin
+# Variáveis TOP: %pos% (posição no rank), %prefixo% (prefixo da tag), %rank% (o rank), %top10% (os nicks), %kills% (kills), %mortes% (mortes)
+mensagens:
+  SemPerm: '&c* &7Você não tem permissão para executar esse comando.'
+  upouRank: '&a* &7Olá, %nick% você upou para o rank %rank%&7 e ganhou dinheirinhos por isso!'
+  upouUltimoRank: '&a* &7Olá, %nick% parabéns! Você upou para o último rank do servidor, agora você é um %rank%'
+  jogadorInexistente: '&c* &7O jogador &c%jogador% &7nunca entrou no servidor.'
+  falha_MySQL: '&a* &7Sistema em manutenção!'
+  somente_players: '&c* &7 Somente jogadores podem executar esse comando!'
+  invalid_arg: '&c* &7%arg%&7 precisa ser um número!'
+  onRanksCmd: '&a* &7Você abriu o menu de ranks!'
+  top_cabecalho: '&f&lTOP 10 - RANKS'
+  top: '&7%pos%. %prefixo% %rank% &7%top10% &8(&7K: &a%kills% &8/ &7D: &c%mortes%&8)'
+
+# Cores base do /RANK
+cores_base:
+  Primaria: '&a&l'
+  Secundaria: '&7'
+  Tercearia: '&a&l'
+
+sintaxes:
+  setdeaths: '&9* &7Use /xampsranks setdeaths (jogador) (mortes)'
+  setkills: '&9* &7Use /xampsranks setkills (jogador) (kills)'
+  reset: '&9* &7Use /xampsranks reset (jogador|all)'
+
+# Configurações gerais do plugin
+# glass_gui: coloca vidro no GUI do /ranks
+# rank_per_rank: habilita a opção de mostrar todos os ranks no GUI do /ranks
+# enchant: mostra itens encantados no GUI do /ranks
+# money_per_rank: se habilitado envia a quantidade de dinheiro ao chegar em cada rank.
+# gui_name: nome do gui do /ranks
+# msg_on_ranks: habilitar mensagem ao usar /ranks
+config:
+  glass_gui: false
+  rank_per_rank: true
+  enchant: true
+  money_per_rank: true
+  gui_name: '&7&lRanks'
+  msg_on_ranks: true
+  
+  
+# Ranks do plugin!
+rank:
+  rank1:
+    nome: '&6Bronze III'
+    simbolo: '&8[&6⌕&8]'
+    icone: '351:10'
+    kills: 30
+    money: 30000
+    descricao:
+      - '&7&l➜ &7Esse é o rank inicial do servidor.'
+      - '&a'
+      - '&6Vantagens:'
+      - '&6* &7O jogador terá a tag &6[⌕]&7 em nosso chat.'
+  rank2:
+    nome: '&6Bronze II'
+    simbolo: '&8[&6✶&8]'
+    icone: '351:13'
+    kills: 60
+    money: 60000
+    descricao:
+      - '&7&l➜ &7Consiga o rank &6&lBRONZE II&7 matando &6&l60 &7jogadores.'
+      - '&a'
+      - '&6Vantagens:'
+      - '&6* &7O jogador terá a tag &6[✶]&7 em nosso chat.'
+      - '&6* &7Receberá a quantia de &6R$60.000'
+  rank3:
+    nome: '&6Bronze I'
+    simbolo: '&8[&6✾&8]'
+    icone: '348'
+    kills: 100
+    money: 100000
+    descricao:
+      - '&7&l➜ &7Consiga o rank &6&lBRONZE I&7 matando &6&l100 &7jogadores.'
+      - '&a'
+      - '&6Vantagens:'
+      - '&6* &7O jogador terá a tag &6[✾]&7 em nosso chat.'
+      - '&6* &7Receberá a quantia de &6R$100.000'
+  rank4:
+    nome: '&8Ferro III'
+    simbolo: '&8[&8✤&8]'
+    icone: '331'
+    kills: 130
+    money: 130000
+    descricao:
+      - '&7&l➜ &7Consiga o rank &8&lFERRO III&7 matando &8&l130 &7jogadores.'
+      - '&a'
+      - '&8Vantagens:'
+      - '&8* &7O jogador terá a tag &8[✤]&7 em nosso chat.'
+      - '&8* &7Receberá a quantia de &8R$130.000'
+  rank5:
+    nome: '&8Ferro II'
+    simbolo: '&8[&8✠&8]'
+    icone: '351:1'
+    kills: 160
+    money: 160000
+    descricao:
+      - '&7&l➜ &7Consiga o rank &8&lFERRO II&7 matando &8&l160 &7jogadores.'
+      - '&a'
+      - '&8Vantagens:'
+      - '&8* &7O jogador terá a tag &8[✠]&7 em nosso chat.'
+      - '&8* &7Receberá a quantia de &8R$160.000'
+  rank6:
+    nome: '&8Ferro I'
+    simbolo: '&8[&8★&8]'
+    icone: '372'
+    kills: 200
+    money: 200000
+    descricao:
+      - '&7&l➜ &7Consiga o rank &8&lFERRO I&7 matando &8&l200 &7jogadores.'
+      - '&a'
+      - '8Vantagens:'
+      - '&8* &7O jogador terá a tag &8[★]&7 em nosso chat.'
+      - '&8* &7Receberá a quantia de &8R$200.000'
+  rank7:
+    nome: '&eOuro III'
+    simbolo: '&8[&e✺&8]'
+    icone: '351:11'
+    kills: 230
+    money: 230000
+    descricao:
+      - '&7&l➜ &7Consiga o rank &e&lOURO III&7 matando &e&l230 &7jogadores.'
+      - '&a'
+      - '&eVantagens:'
+      - '&e* &7O jogador terá a tag &e[✺]&7 em nosso chat.'
+      - '&e* &7Receberá a quantia de &eR$230.000'
+  rank8:
+    nome: '&eOuro II'
+    simbolo: '&8[&e✿&8]'
+    icone: '351:7'
+    kills: 260
+    money: 260000
+    descricao:
+      - '&7&l➜ &7Consiga o rank &e&lOURO II&7 matando &e&l260 &7jogadores.'
+      - '&a'
+      - '&eVantagens:'
+      - '&e* &7O jogador terá a tag &e[✿]&7 em nosso chat.'
+      - '&e* &7Receberá a quantia de &eR$260.000'
+  rank9:
+    nome: '&eOuro I'
+    simbolo: '&8[&e✥&8]'
+    icone: '351:14'
+    kills: 300
+    money: 300000
+    descricao:
+      - '&7&l➜ &7Consiga o rank &e&lOURO I&7 matando &e&l300 &7jogadores.'
+      - '&a'
+      - '&eVantagens:'
+      - '&e* &7O jogador terá a tag &e[✥]&7 em nosso chat.'
+      - '&e* &7Receberá a quantia de &eR$300.000'
+  rank10:
+    nome: '&cRuby III'
+    simbolo: '&8[&c✟&8]'
+    icone: '351:5'
+    kills: 330
+    money: 330000
+    descricao:
+      - '&7&l➜ &7Consiga o rank &c&lRUBY III&7 matando &c&l330 &7jogadores.'
+      - '&a'
+      - '&cVantagens:'
+      - '&c* &7O jogador terá a tag &c[✟]&7 em nosso chat.'
+      - '&c* &7Receberá a quantia de &cR$330.000'
+  rank11:
+    nome: '&cRuby II'
+    simbolo: '&8[&c✙&8]'
+    icone: '351:9'
+    kills: 360
+    money: '360000'
+    descricao:
+      - '&7&l➜ &7Consiga o rank &c&lRUBY II&7 matando &c&l360 &7jogadores.'
+      - '&a'
+      - '&cVantagens:'
+      - '&c* &7O jogador terá a tag &c[✙]&7 em nosso chat.'
+      - '&c* &7Receberá a quantia de &cR$360.000'
+  rank12:
+    nome: '&cRuby I'
+    simbolo: '&8[&c✱&8]'
+    icone: '351:2'
+    kills: 400
+    money: 400000
+    descricao:
+      - '&7&l➜ &7Consiga o rank &c&lRUBY I&7 matando &c&l400 &7jogadores.'
+      - '&a'
+      - '&cVantagens:'
+      - '&c* &7O jogador terá a tag &c[✱]&7 em nosso chat.'
+      - '&c* &7Receberá a quantia de &cR$400.000'
+  rank13:
+    nome: '&bDiamante III'
+    simbolo: '&8[&b❆&8]'
+    icone: '351:12'
+    kills: 430
+    money: 430000
+    descricao:
+      - '&7&l➜ &7Consiga o rank &b&lDIAMANTE III&7 matando &b&l430 &7jogadores.'
+      - '&a'
+      - '&bVantagens:'
+      - '&b* &7O jogador terá a tag &b[❆]&7 em nosso chat.'
+      - '&b* &7Receberá a quantia de &bR$430.000'
+  rank14:
+    nome: '&bDiamante II'
+    simbolo: '&8[&b➹&8]'
+    icone: '351:6'
+    kills: 460
+    money: 460000
+    descricao:
+      - '&7&l➜ &7Consiga o rank &b&lDIAMANTE II&7 matando &b&l460 &7jogadores.'
+      - '&a'
+      - '&bVantagens:'
+      - '&b* &7O jogador terá a tag &b[➹]&7 em nosso chat.'
+      - '&b* &7Receberá a quantia de &bR$460.000'
+  rank15:
+    nome: '&bDiamante I'
+    simbolo: '&8[&b♢&8]'
+    icone: '351:4'
+    kills: 500
+    money: 500000
+    descricao:
+      - '&7&l➜ &7Consiga o rank &b&lDIAMANTE I&7 matando &b&l500 &7jogadores.'
+      - '&a'
+      - '&bVantagens:'
+      - '&b* &7O jogador terá a tag &b[♢]&7 em nosso chat.'
+      - '&b* &7Receberá a quantia de &bR$500.000'
+  rank16:
+    nome: '&aMestre'
+    simbolo: '&8[&a⌬&8]'
+    icone: '354'
+    kills: 700
+    money: 700000
+    descricao:
+      - '&7&l➜ &7Consiga o rank &a&lMESTRE&7 matando &b&l700 &7jogadores.'
+      - '&a'
+      - '&aVantagens:'
+      - '&a* &7O jogador terá a tag &a[⌬]&7 em nosso chat.'
+      - '&a* &7Receberá a quantia de &aR$700.000'
+  rank17:
+    nome: '&aGrão-Mestre'
+    simbolo: '&8[&a⌬&8]'
+    icone: '399'
+    kills: 1000
+    money: 800000
+    descricao:
+      - '&7&l➜ &7Consiga o rank &a&lGRÃO-MESTRE&7 matando &b&l1000 &7jogadores.'
+      - '&a'
+      - '&aVantagens:'
+      - '&a* &7O jogador terá a tag &a[⌬]&7 em nosso chat.'
+      - '&a* &7Receberá a quantia de &aR$800.000'
+    permissoes:
+      - 'teste.teste'
+      
+     
+      
+# O rank(1 -> 7) dessa área SOMENTE é mostrado se a opção rank_per_rank da config estiver DESATIVADA.
+gui:
+  base:
+    nome: '&eInformações'
+    icone: '399'
+    descricao:
+      - '&a'
+      - '&7Esse é nosso sistema de &e&lranks&7, onde você ganhha'
+      - '&7recompensas ao matar inimigos!'
+      - '&a'
+  rank1:
+    nome: '&6Bronze'
+    icone: '351:10'
+    descricao:
+      - '&7&l➜ &7Esse é o rank inicial do servidor.'
+      - '&a'
+      - '&6Vantagens:'
+      - '&6* &7O jogador terá a tag &6[⌕]&7 em nosso chat.'
+  rank2:
+    nome: '&8Ferro'
+    icone: '351:9'
+    descricao:
+      - '&7&l➜ &7Consiga o rank &8&lFERRO&7 matando &8&l130 &7jogadores.'
+      - '&a'
+      - '&8Vantagens:'
+      - '&8* &7O jogador terá a tag &8[✤]&7 em nosso chat.'
+      - '&8* &7Receberá a quantia de &8R$130.000'
+  rank3:
+    nome: '&eOuro'
+    icone: '351:11'
+    descricao:
+      - '&7&l➜ &7Consiga o rank &e&lOURO&7 matando &e&l230 &7jogadores.'
+      - '&a'
+      - '&eVantagens:'
+      - '&e* &7O jogador terá a tag &e[✺]&7 em nosso chat.'
+      - '&e* &7Receberá a quantia de &eR$230.000'
+  rank4:
+    nome: '&cRuby'
+    icone: '351:1'
+    descricao:
+      - '&7&l➜ &7Consiga o rank &c&lRUBY&7 matando &c&l330 &7jogadores.'
+      - '&a'
+      - '&cVantagens:'
+      - '&c* &7O jogador terá a tag &c[✟]&7 em nosso chat.'
+      - '&c* &7Receberá a quantia de &cR$330.000'
+  rank5:
+    nome: '&bDiamante'
+    icone: '351:12'
+    descricao:
+      - '&7&l➜ &7Consiga o rank &b&lDIAMANTE&7 matando &b&l430 &7jogadores.'
+      - '&a'
+      - '&bVantagens:'
+      - '&b* &7O jogador terá a tag &b[❆]&7 em nosso chat.'
+      - '&b* &7Receberá a quantia de &bR$430.000'
+  rank6:
+    nome: '&aMestre'
+    icone: '351:5'
+    descricao:
+      - '&7&l➜ &7Consiga o rank &a&lMESTRE&7 matando &a&l700 &7jogadores.'
+      - '&a'
+      - '&aVantagens:'
+      - '&a* &7O jogador terá a tag &a[⌬]&7 em nosso chat.'
+      - '&a* &7Receberá a quantia de &aR$700.000'
+  rank7:
+    nome: '&aGrão-Mestre'
+    icone: '351:14'
+    descricao:
+      - '&7&l➜ &7Consiga o rank &a&lGRÃO-MESTRE&7 matando &a&l1000 &7jogadores.'
+      - '&a'
+      - '&aVantagens:'
+      - '&a* &7O jogador terá a tag &a[⌬]&7 em nosso chat.'
+      - '&a* &7Receberá a quantia de &aR$800.000'

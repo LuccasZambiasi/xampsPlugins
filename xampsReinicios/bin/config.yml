@@ -1,0 +1,29 @@
+# 
+# xampsReinicios por xampS#0443 para +Rammy#1524
+# Intervalo em segundos!
+#
+
+configs:
+   habilitar: true
+   intervalo: 10800
+   comandos:
+   - 'save-all'
+   - 'restart'
+   tempo_mensagens:
+   - '60'
+   - '30'
+   - '10'
+   - '9'
+   - '8'
+   - '7'
+   - '6'
+   - '5'
+   - '4'
+   - '3'
+   - '2'
+   - '1'
+   
+mensagens:
+   reiniciando: '&a* &7Servidor reiniciando em &a%tempo%&7!'   
+
+ 

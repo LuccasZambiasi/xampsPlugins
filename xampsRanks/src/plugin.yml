@@ -1,0 +1,10 @@
+name: xampsranks
+version: 1.0
+main: br.poa.zambiasi.xampsranks.Main
+author: xampS
+softdepends: [Legendchat, Solary-Economy]
+commands:
+  ranks:
+  rank:
+  xampsranks:
+  xp:

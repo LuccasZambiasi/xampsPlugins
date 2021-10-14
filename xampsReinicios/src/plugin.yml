@@ -1,0 +1,7 @@
+name: xampsReinicios
+main: br.poa.zambiasi.xampsreinicios.Main
+version: 1.0
+author: xampS
+commands:
+   xampsreinicios:
+      aliases: [reinicios]

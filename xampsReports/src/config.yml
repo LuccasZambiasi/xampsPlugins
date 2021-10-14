@@ -1,0 +1,6 @@
+mysql:
+   database: 'chat'
+   host: 'localhost'
+   porta: '3306'
+   user: 'root'
+   senha: ''
