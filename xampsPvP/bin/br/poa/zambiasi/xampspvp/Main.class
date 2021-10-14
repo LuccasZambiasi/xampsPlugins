@@ -1,0 +1,147 @@
+Êþº¾   4r  br/poa/zambiasi/xampspvp/Main  !org/bukkit/plugin/java/JavaPlugin  org/bukkit/event/Listener pl Lorg/bukkit/plugin/Plugin; version Ljava/lang/String; 	file_kits Ljava/io/File; cfg_kits 1Lorg/bukkit/configuration/file/FileConfiguration; 	file_rank cfg_rank 
+file_store 	cfg_store file_x1 cfg_x1 
+file_warps 	cfg_warps mysql &Lbr/poa/zambiasi/xampspvp/utils/Mysql; <clinit> ()V Code  java/io/File  plugins/xampspvp ! kits.yml
+  # $ % <init> '(Ljava/lang/String;Ljava/lang/String;)V	  '   ) rank.yml	  +   - loja.yml	  /   1 1v1.yml	  3   5 	warps.yml	  7  
+ 9 ; : /org/bukkit/configuration/file/YamlConfiguration < = loadConfiguration A(Ljava/io/File;)Lorg/bukkit/configuration/file/YamlConfiguration;	  ? 
+ 	  A  	  C  	  E  	  G   LineNumberTable LocalVariableTable
+  K $  this Lbr/poa/zambiasi/xampspvp/Main; getMysql (()Lbr/poa/zambiasi/xampspvp/utils/Mysql;	  Q   onEnable	  T  
+  V W X getDescription +()Lorg/bukkit/plugin/PluginDescriptionFile;
+ Z \ [ 'org/bukkit/plugin/PluginDescriptionFile ] ^ getName ()Ljava/lang/String; ` xampspvp
+ b d c java/lang/String e f equals (Ljava/lang/Object;)Z
+ h j i org/bukkit/Bukkit k l 	getServer ()Lorg/bukkit/Server; n p o org/bukkit/Server q r getPluginManager #()Lorg/bukkit/plugin/PluginManager; t v u org/bukkit/plugin/PluginManager w x 
+disablePlugin (Lorg/bukkit/plugin/Plugin;)V
+ h z { | getConsoleSender +()Lorg/bukkit/command/ConsoleCommandSender; ~ Â§a  € ‚  'org/bukkit/command/ConsoleCommandSender ƒ „ sendMessage (Ljava/lang/String;)V † )Â§c* Â§7xampsPvP: NÃƒO RENOMEIE O PLUGIN! ˆ #Â§c* Â§7desenvolvido por xampS#0443
+ Z Š ‹ ^ 
+getVersion	   	 
+
+     saveDefaultConfig
+  ’ “ ” exists ()Z
+  – — ˜ saveResource (Ljava/lang/String;Z)V
+ š œ › /org/bukkit/configuration/file/FileConfiguration  ž load (Ljava/io/File;)V	   ¢ ¡ java/lang/System £ ¤ out Ljava/io/PrintStream;
+ ¦ ¨ § java/lang/Exception © ^ 
+getMessage
+ « ­ ¬ java/io/PrintStream ® „ println ° $br/poa/zambiasi/xampspvp/utils/Mysql ² ´ ³ org/bukkit/plugin/Plugin µ ¶ 	getConfig 3()Lorg/bukkit/configuration/file/FileConfiguration; ¸ mysql.database
+ š º » ¼ 	getString &(Ljava/lang/String;)Ljava/lang/String; ¾ 
+mysql.host À mysql.porta Â mysql.senha Ä 
+mysql.user
+ ¯ Æ $ Ç ](Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+ ¯ É Ê Ë conectar ()Ljava/sql/Connection; Í Ï Î java/sql/Connection Ð Ñ createStatement ()Ljava/sql/Statement; Ó rCREATE TABLE IF NOT EXISTS `pvp` (`nick` varchar(64), `kill` int, `death` int, `money` int, `xp` int, `click` int) Õ × Ö java/sql/Statement Ø Ù 
+executeUpdate (Ljava/lang/String;)I Û  Â§c* Â§7xampsPvP: ERRO NO MYSQL!
+  j t Þ ß à registerEvents 8(Lorg/bukkit/event/Listener;Lorg/bukkit/plugin/Plugin;)V â #br/poa/zambiasi/xampspvp/utils/Nerf
+ á K å ,br/poa/zambiasi/xampspvp/utils/HabilidadeApi
+ ä K è &br/poa/zambiasi/xampspvp/ProtecaoSpawn
+ ç K ë  br/poa/zambiasi/xampspvp/Eventos
+ ê K î #br/poa/zambiasi/xampspvp/cmds/Build
+ í K ñ #br/poa/zambiasi/xampspvp/cmds/Score
+ ð K ô &br/poa/zambiasi/xampspvp/kits/Kangaroo
+ ó K ÷ !br/poa/zambiasi/xampspvp/cmds/Tag
+ ö K ú %br/poa/zambiasi/xampspvp/cmds/Recraft
+ ù K ý .br/poa/zambiasi/xampspvp/utils/CoolDownRecraft
+ ü K  'br/poa/zambiasi/xampspvp/kits/FisherMan
+ ÿ K $br/poa/zambiasi/xampspvp/kits/Archer
+ K #br/poa/zambiasi/xampspvp/kits/Sonic
+ K	 *br/poa/zambiasi/xampspvp/utils/CoolDownAPI
+ K &br/poa/zambiasi/xampspvp/kits/DeshFire
+ K $br/poa/zambiasi/xampspvp/kits/Anchor
+ K #br/poa/zambiasi/xampspvp/BlocosJump
+ K (br/poa/zambiasi/xampspvp/utils/CombatLog
+ K $br/poa/zambiasi/xampspvp/kits/Reaper
+ K %br/poa/zambiasi/xampspvp/kits/Phantom
+ K #br/poa/zambiasi/xampspvp/kits/Snail
+ K! (br/poa/zambiasi/xampspvp/kits/Backpacker
+  K$ "br/poa/zambiasi/xampspvp/kits/Hulk
+# K' "br/poa/zambiasi/xampspvp/kits/Monk
+& K* %br/poa/zambiasi/xampspvp/kits/Stomper
+) K- 'br/poa/zambiasi/xampspvp/cmds/StaffChat
+, K0 #br/poa/zambiasi/xampspvp/cmds/Admin
+/ K3 #br/poa/zambiasi/xampspvp/kits/Viper
+2 K6 &br/poa/zambiasi/xampspvp/kits/Poseidon
+5 K9 %br/poa/zambiasi/xampspvp/kits/Fireman
+8 K< &br/poa/zambiasi/xampspvp/kits/Switcher
+; K? #br/poa/zambiasi/xampspvp/kits/Ninja
+> KB !br/poa/zambiasi/xampspvp/kits/Ryu
+A KE 'br/poa/zambiasi/xampspvp/kits/Berserker
+D KH 'br/poa/zambiasi/xampspvp/kits/Gladiator
+G KK $br/poa/zambiasi/xampspvp/kits/Souper
+J KN &br/poa/zambiasi/xampspvp/kits/Grappler
+M KQ #br/poa/zambiasi/xampspvp/kits/Camel
+P KT &br/poa/zambiasi/xampspvp/kits/Neurotic
+S KW $br/poa/zambiasi/xampspvp/kits/Vacuum
+V KZ #br/poa/zambiasi/xampspvp/kits/Ajnin
+Y K] (br/poa/zambiasi/xampspvp/kits/ForceField
+\ K` !br/poa/zambiasi/xampspvp/kits/Neo
+_ Kc $br/poa/zambiasi/xampspvp/kits/Frosty
+b Kf 'br/poa/zambiasi/xampspvp/kits/EnderMage
+e Ki !br/poa/zambiasi/xampspvp/cmds/Pvp
+h Kl %br/poa/zambiasi/xampspvp/cmds/VipChat
+k Ko br/poa/zambiasi/xampspvp/X1
+n Kr build
+ tuv 
+getCommand 6(Ljava/lang/String;)Lorg/bukkit/command/PluginCommand;
+xzy  org/bukkit/command/PluginCommand{| setExecutor '(Lorg/bukkit/command/CommandExecutor;)V~ score€ checar‚ $br/poa/zambiasi/xampspvp/cmds/Checar
+ K… tag‡ rank‰ "br/poa/zambiasi/xampspvp/cmds/Rank
+ˆ KŒ lagŽ !br/poa/zambiasi/xampspvp/cmds/Lag
+ K‘ setar“ #br/poa/zambiasi/xampspvp/cmds/Setar
+’ K– cc˜  br/poa/zambiasi/xampspvp/cmds/Cc
+— K› chat "br/poa/zambiasi/xampspvp/cmds/Chat
+œ K  spawn¢ #br/poa/zambiasi/xampspvp/cmds/Spawn
+¡ K¥ sc§ 	staffchat© admin« gm­  br/poa/zambiasi/xampspvp/cmds/Gm
+¬ K° tell² "br/poa/zambiasi/xampspvp/cmds/Tell
+± Kµ invsee· $br/poa/zambiasi/xampspvp/cmds/InvSee
+¶ Kº tpall¼ #br/poa/zambiasi/xampspvp/cmds/TpAll
+» K¿ lobbyÁ #br/poa/zambiasi/xampspvp/cmds/lobby
+À KÄ arenaÆ #br/poa/zambiasi/xampspvp/cmds/Arena
+Å KÉ anuncioË %br/poa/zambiasi/xampspvp/cmds/Anuncio
+Ê KÎ discordÐ %br/poa/zambiasi/xampspvp/cmds/Discord
+Ï KÓ flyÕ !br/poa/zambiasi/xampspvp/cmds/Fly
+Ô KØ tpÚ  br/poa/zambiasi/xampspvp/cmds/Tp
+Ù KÝ tphereß $br/poa/zambiasi/xampspvp/cmds/TpHere
+Þ Kâ pvpä vipæ xpè  br/poa/zambiasi/xampspvp/cmds/Xp
+ç Kë 1v1í  br/poa/zambiasi/xampspvp/cmds/X1
+ì Kð moneyò #br/poa/zambiasi/xampspvp/cmds/Money
+ñ Kõ resetkdr÷ &br/poa/zambiasi/xampspvp/cmds/ResetKDR
+ö Kú recraftü (Â§a* Â§7xampsPvP habilitado com sucesso!þ #Â§a* Â§7desenvolvido por xampS#0443  br/poa/zambiasi/xampspvp/Main$1
+ÿ $ "(Lbr/poa/zambiasi/xampspvp/Main;)V       x
+ÿ	 runTaskTimerAsynchronously ?(Lorg/bukkit/plugin/Plugin;JJ)Lorg/bukkit/scheduler/BukkitTask; automsg.habilitar
+ š
+ 
+getBoolean (Ljava/lang/String;)Z automsg.msgs
+ š 
+getStringList $(Ljava/lang/String;)Ljava/util/List;
+ java/lang/Object ^ toString & Â§
+ b !" replace D(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;$ 	%discord%& Gerais.Discord
+ () ¼ removeUltimoChar n+,- getScheduler (()Lorg/bukkit/scheduler/BukkitScheduler;/ br/poa/zambiasi/xampspvp/Main$2
+.1 $2 4(Lbr/poa/zambiasi/xampspvp/Main;Ljava/lang/String;)V4 
+automsg.delay
+ š67 Ù getInt       ;=< $org/bukkit/scheduler/BukkitScheduler>? scheduleSyncRepeatingTask 3(Lorg/bukkit/plugin/Plugin;Ljava/lang/Runnable;JJ)IA java/io/IOExceptionC 6org/bukkit/configuration/InvalidConfigurationException e1 Ljava/lang/Exception; e asd 
+StackMapTable removeFirstChar
+ bKLM 	substring (I)Ljava/lang/String; s
+ bPQR length ()I
+ bTLU (II)Ljava/lang/String; tamanho I setarTag /(Lorg/bukkit/entity/Player;Ljava/lang/String;)V[ br/poa/zambiasi/xampspvp/Main$3
+Z] $Y
+Z_`a runTaskAsynchronously =(Lorg/bukkit/plugin/Plugin;)Lorg/bukkit/scheduler/BukkitTask; p Lorg/bukkit/entity/Player; 	loginMSQL -(Lorg/bukkit/event/player/PlayerLoginEvent;)V RuntimeVisibleAnnotations Lorg/bukkit/event/EventHandler;i br/poa/zambiasi/xampspvp/Main$4
+hk $l L(Lbr/poa/zambiasi/xampspvp/Main;Lorg/bukkit/event/player/PlayerLoginEvent;)V
+h_ *Lorg/bukkit/event/player/PlayerLoginEvent; 
+SourceFile 	Main.java InnerClasses !     
+ 	     	 	 
+   	     	 
+    	     	     	     	     	     	     	     	     
+             ¼      t» Y · "³ &» Y(· "³ *» Y,· "³ .» Y0· "³ 2» Y4· "³ 6² &¸ 8³ >² *¸ 8³ @² 2¸ 8³ B² 6¸ 8³ D² .¸ 8³ F±    H   .    ^  a  d * g 8 j F O X a  j! s" I       $      /     *· J±    H       Y I        L M   	 N O     $      ² P°    H       p I       R     
+û 	   l*³ S*¶ U¶ Y_¶ aš <¸ g¹ m ² S¹ s ¸ y}¹  ¸ y…¹  ¸ y‡¹  ¸ y}¹  ±*¶ U¶ ‰³ Œ*¶ Ž² .¶ ‘š 
+*,¶ •² 6¶ ‘š 
+*4¶ •² 2¶ ‘š 
+*0¶ •² &¶ ‘š 
+* ¶ •² *¶ ‘š 
+*(¶ •² >² &¶ ™² @² *¶ ™² B² 2¶ ™² D² 6¶ ™² F² .¶ ™§ L² Ÿ+¶ ¥¶ ª» ¯Y² S¹ ± ·¶ ¹² S¹ ± ½¶ ¹² S¹ ± ¿¶ ¹² S¹ ± Á¶ ¹² S¹ ± Ã¶ ¹· Å³ P² P¶ È¹ Ì Ò¹ Ô W§ =L¸ y}¹  ¸ yÚ¹  ¸ y‡¹  ¸ y}¹  ¸ g¹ m ² S¹ s ±*¶ Ü¹ m **¹ Ý *¶ Ü¹ m » áY· ã*¹ Ý *¶ Ü¹ m » äY· æ*¹ Ý *¶ Ü¹ m » çY· é*¹ Ý *¶ Ü¹ m » êY· ì*¹ Ý *¶ Ü¹ m » íY· ï*¹ Ý *¶ Ü¹ m » ðY· ò*¹ Ý *¶ Ü¹ m » óY· õ*¹ Ý *¶ Ü¹ m » öY· ø*¹ Ý *¶ Ü¹ m » ùY· û*¹ Ý *¶ Ü¹ m » üY· þ*¹ Ý *¶ Ü¹ m » ÿY·*¹ Ý *¶ Ü¹ m »Y·*¹ Ý *¶ Ü¹ m »Y·*¹ Ý *¶ Ü¹ m »Y·
+*¹ Ý *¶ Ü¹ m »Y·
+*¹ Ý *¶ Ü¹ m »Y·*¹ Ý *¶ Ü¹ m »Y·*¹ Ý *¶ Ü¹ m »Y·*¹ Ý *¶ Ü¹ m »Y·*¹ Ý *¶ Ü¹ m »Y·*¹ Ý *¶ Ü¹ m »Y·*¹ Ý *¶ Ü¹ m » Y·"*¹ Ý *¶ Ü¹ m »#Y·%*¹ Ý *¶ Ü¹ m »&Y·(*¹ Ý *¶ Ü¹ m »)Y·+*¹ Ý *¶ Ü¹ m »,Y·.*¹ Ý *¶ Ü¹ m »/Y·1*¹ Ý *¶ Ü¹ m »2Y·4*¹ Ý *¶ Ü¹ m »5Y·7*¹ Ý *¶ Ü¹ m »8Y·:*¹ Ý *¶ Ü¹ m »;Y·=*¹ Ý *¶ Ü¹ m »>Y·@*¹ Ý *¶ Ü¹ m »AY·C*¹ Ý *¶ Ü¹ m »DY·F*¹ Ý *¶ Ü¹ m »GY·I*¹ Ý *¶ Ü¹ m »JY·L*¹ Ý *¶ Ü¹ m »MY·O*¹ Ý *¶ Ü¹ m »PY·R*¹ Ý *¶ Ü¹ m »SY·U*¹ Ý *¶ Ü¹ m »VY·X*¹ Ý *¶ Ü¹ m »YY·[*¹ Ý *¶ Ü¹ m »\Y·^*¹ Ý *¶ Ü¹ m »_Y·a*¹ Ý *¶ Ü¹ m »bY·d*¹ Ý *¶ Ü¹ m »eY·g*¹ Ý *¶ Ü¹ m »hY·j*¹ Ý *¶ Ü¹ m »kY·m*¹ Ý *¶ Ü¹ m »nY·p*¹ Ý *q¶s» íY· ï¶w*}¶s» ðY· ò¶w*¶s»Y·ƒ¶w*„¶s» öY· ø¶w*†¶s»ˆY·Š¶w*‹¶s»Y·¶w*¶s»’Y·”¶w*•¶s»—Y·™¶w*š¶s»œY·ž¶w*Ÿ¶s»¡Y·£¶w*¤¶s»,Y·.¶w*¦¶s»,Y·.¶w*¨¶s»/Y·1¶w*ª¶s»¬Y·®¶w*¯¶s»±Y·³¶w*´¶s»¶Y·¸¶w*¹¶s»»Y·½¶w*¾¶s»ÀY·Â¶w*Ã¶s»ÅY·Ç¶w*È¶s»ÊY·Ì¶w*Í¶s»ÏY·Ñ¶w*Ò¶s»ÔY·Ö¶w*×¶s»ÙY·Û¶w*Ü¶s»ÞY·à¶w*á¶s»hY·j¶w*ã¶s»kY·m¶w*å¶s»çY·é¶w*ê¶s»ìY·î¶w*ï¶s»ñY·ó¶w*ô¶s»öY·ø¶w*ù¶s» ùY· û¶w¸ y}¹  ¸ yû¹  ¸ yý¹  ¸ y}¹  »ÿY*·*¶W² S¹ ± 
+¶™ a² S¹ ± ¶¶¶#² S¹ ± %¶ ¹¶¸'L¸ g¹* *».Y*+·0	² S¹ ± 3¶5…8i¹: W±  ª × Ú@ ª × ÚB0CF ¦  H   …   u  w  x # y - z 7 { A | K } L  V  Z ‚ c ƒ j … s † z ˆ ƒ ‰ Š ‹ “ Œ š Ž £  ª “ ³ ” ¼ • Å – Î — × ˜ Û ™ å œ  ž* œ0 ¡; ¢= ¡C £G ¤Q ¥[ ¦e §o ¨ ©€ ­ ®¦ ¯¼ °Ò ±è ²þ ³ ´* µ@ ¶V ·l ¸‚ ¹˜ º® »Ä ¼Ú ½ð ¾ ¿ À2 ÁH Â^ Ãt ÄŠ Å  Æ¶ ÇÌ Èâ Éø Ê Ë$ Ì: ÍP Îf Ï| Ð’ Ñ¨ Ò¾ ÓÔ Ôê Õ  Ö ×, ØB ÙX Ún Û„ Üš Ý° ßÁ àÒ áã âô ã ä å' æ8 çI èZ ék ê| ë ìž í¯ ïÀ ðÑ ñâ òó ó ô õ& ö7 ÷H øY ùj ú{ ûŒ ü ý® þ¿ ÉÔßéñ
+ü
+
+?Qek I   *   l L M   Û 
+DE G 9FE ? ,G 
+ H    û Lo ¦
+÷ ` ¦9ûê 	I ¼     0     *¶J°    H      % I       N 
+   	) ¼     L     *¶O<*d¶SK*°    H      ) * + I       N 
+    VW  	XY     M     »ZY*+·\² S¶^W±    H      / 	6 7 I       bc     … 
+  de f    g      M     »hY*+·j² S¶mW±    H      ; 	M N I        L M     Fn  o   pq   " ÿ      .      Z      h      
