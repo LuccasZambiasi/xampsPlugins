@@ -1,0 +1,22 @@
+name: xampslobby
+version: 1.0
+main: br.poa.zambiasi.xampslobby.Main
+author: xampS
+commands:
+   score:
+   chat:
+   tag:
+   build:
+   checar:
+   lag:
+   cc:
+   chat:
+   gm:
+   tell:
+   invsee:
+   tpall:
+   discord:
+   fly:
+   tp:
+   tphere:
+   tpall:

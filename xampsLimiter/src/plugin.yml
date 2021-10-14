@@ -1,0 +1,5 @@
+name: xampsLimiter
+version: 1.0.0
+main: br.poa.zambiasi.xampslimiter.Main
+softdepend: [WorldGuard]
+author: xampS

@@ -1,0 +1,15 @@
+# Coloque o : de qualquer jeito, se nao tiver, coloque :0
+# ID:DATA,QUANTIDADE
+# Permissão: xampslimiter.bypass
+
+LimiteAtingido: '&c* &7Voce nao pode colocar mais este tipo de bloco.'
+
+Limites:
+- 1:0,1
+
+mysql:
+   database: 'chat'
+   host: 'localhost'
+   porta: '3306'
+   user: 'root'
+   senha: ''

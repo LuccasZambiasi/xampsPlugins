@@ -1,0 +1,72 @@
+# Mensagens gerais do servidor!
+Mensagens:
+  Sem_Permissao: '&c* &7Você não tem permissão para usar esse comando!'
+  Jogador_OFF: '&c* &7Jogador offline!'
+  Console: '&c* &7Esse é um comando de jogadores apenas!'
+  Site: '&a* &7Entre em nosso site: nemesismc.minemarket.com.br'
+  Entrou: '&8[%rank%&8] %grupo% &7%player% entrou no servidor!'
+  Saiu: '&8[%rank%&8] %grupo% &7%player% saiu do servidor!'
+  Discord: '&a* &7Entre em nosso discord em &e%discord%'
+  
+  
+# MOTD do servidor!
+Motd: '&f&lNemesis&1&lMC &7- Lobby &8(&a1.0&8)%n%&7Jogadores online no momento: &a&o%players%'
+Slots: 20
+
+# Configs gerais do Plugin
+Gerais:
+  LowerCase: false
+  Discord: 'discord.gg/QHsEu3w'
+  habilitar_hg: false
+
+# Alteração no TAB do servidor
+Tab_Superior: '%linha%                 &dNemesis&5MC                    %linha%'
+Tab_Inferior: '%linha%&f %discord% %linha%'
+
+# Automensagens
+automsg:
+  habilitar: true
+  delay: 120
+  msgs: 
+     - '&e* &7Acesse nosso discord! %discord%'
+
+# Configuração do MySQL (mesma do PVP)
+mysql:
+  database: 'collection_1234'
+  host: 'localhost'
+  porta: '3306'
+  user: 'root'
+  senha: ''
+
+#
+# Nome: (mesmo nome que está na configuração do Bungeecord)
+# IP: (ip do servidor, mesmo da configuração do bungeecord, exemplo: 123.456.789:12345)
+
+servidores:
+  kitpvp:
+    nome: 'Lobby'
+    ip: 'localhost'
+  hg:
+    nome: 'Lobby'
+    ip: 'localhost'
+
+# TAGs dos servidor
+tags:
+  fundador: '&4&lFundador&7 '
+  diretor: '&b&lDiretor&7 '
+  admin: '&c&lAdmin&7 '
+  modplus: '&5&lMod+&7 '
+  modgc: '&5&lModGC&7 '
+  mod: '&5&lMod&7 '
+  trial: '&d&lTrial&7 '
+  helper: '&e&lHelper&7 '
+  builder: '&a&lBuilder&7 '
+  ruby: '&c&lRuby&7 '
+  sapphire: '&1&lSapphire&7 '
+  streamer: '&5&lStreamer&7 '
+  youtuberplus: '&3&lYT+&7 '
+  youtuber: '&b&lYT&7 '
+  miniyt: '&3&lMiniYT&7 '
+  beta: '&6&lBeta&7 '
+  alpha: '&a&lAlpha&7 '
+  normal: '&7'

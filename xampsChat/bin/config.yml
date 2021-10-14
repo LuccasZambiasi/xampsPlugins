@@ -1,0 +1,27 @@
+#
+# > xampsChat
+# > Feito por Luccas - xampS#0443
+# > Plugin exclusivo de +Rammy
+#
+# Opções
+# player: altera a cor que aparece na mensagem, por padrão &7 (cinza): não mexer no @%player%
+# global: altera a cor que aparece na mensagem global
+# usar_sons: se estiver "true" o som da opção abaixo será tocado.
+# enviar_msg: se estiver "true" enviará a mensagem abaixo ao ser marcado.
+#
+# Permissões
+# xampschat.player - Permite marcar outras pessoas no chat.
+# xampschat.admin - Permite dar reload no plugin usando /xampschat reload
+#
+
+opcoes:
+  player: '&b@%player%&e'
+  global: '&b@%player%&6'
+  usar_sons: true
+  enviar_msg: true
+  som: LEVEL_UP
+
+mensagens:
+  marcacao: '&a %player% mencionou você!'
+  sem_perm: '&c Você não tem permissao para usar esse comando.'
+  somente_players: '&c Somente jogadores podem executar esse comando!'

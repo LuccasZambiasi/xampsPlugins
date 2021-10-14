@@ -1,0 +1,7 @@
+main: br.poa.zambiasi.xampschat.Main
+name: xampschat
+author: xampS
+version: 1.0
+softdepend: [Legendchat]
+commands:
+  xampschat:
