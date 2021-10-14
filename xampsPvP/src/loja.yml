@@ -1,0 +1,266 @@
+loja:
+   kits:
+     pvp:
+        preco: 20000
+        cmd: 'pex user $player$ add xampspvp.kit.pvp'
+        sem_dinheiro: '&c* &7Você não tem coins suficientes para isso!'
+        comprou_kit: '&a* &7Você comprou esse kit!'
+        name: '&7Kit &8» &aPvP'
+        desc:
+          - '$20000'
+     kangaroo:
+        preco: 20000
+        cmd: 'pex user $player$ add xampspvp.kit.kangaroo'
+        sem_dinheiro: '&c* &7Você não tem coins suficientes para isso!'
+        comprou_kit: '&a* &7Você comprou esse kit!'
+        name: '&7Kit &8» &aKangaroo'
+        desc:
+          - '$20000'
+     fisherman:
+        preco: 20000
+        cmd: 'pex user $player$ add xampspvp.kit.fisherman'
+        sem_dinheiro: '&c* &7Você não tem coins suficientes para isso!'
+        comprou_kit: '&a* &7Você comprou esse kit!'
+        name: '&7Kit &8» &aFisherman'
+        desc:
+          - '$20000'
+     archer:
+        preco: 20000
+        cmd: 'pex user $player$ add xampspvp.kit.archer'
+        sem_dinheiro: '&c* &7Você não tem coins suficientes para isso!'
+        comprou_kit: '&a* &7Você comprou esse kit!'
+        name: '&7Kit &8» &aArcher'
+        desc:
+          - '$20000'
+     sonic:
+        preco: 20000
+        cmd: 'pex user $player$ add xampspvp.kit.sonic'
+        sem_dinheiro: '&c* &7Você não tem coins suficientes para isso!'
+        comprou_kit: '&a* &7Você comprou esse kit!'
+        name: '&7Kit &8» &aSonic'
+        desc:
+          - '$20000'
+     deshfire:
+        preco: 20000
+        cmd: 'pex user $player$ add xampspvp.kit.deshfire'
+        sem_dinheiro: '&c* &7Você não tem coins suficientes para isso!'
+        comprou_kit: '&a* &7Você comprou esse kit!'
+        name: '&7Kit &8» &aDeshfire'
+        desc:
+          - '$20000'
+     anchor:
+        preco: 20000
+        cmd: 'pex user $player$ add xampspvp.kit.anchor'
+        sem_dinheiro: '&c* &7Você não tem coins suficientes para isso!'
+        comprou_kit: '&a* &7Você comprou esse kit!'
+        name: '&7Kit &8» &aAnchor'
+        desc:
+          - '$20000'
+     reaper:
+        preco: 20000
+        cmd: 'pex user $player$ add xampspvp.kit.reaper'
+        sem_dinheiro: '&c* &7Você não tem coins suficientes para isso!'
+        comprou_kit: '&a* &7Você comprou esse kit!'
+        name: '&7Kit &8» &aReaper'
+        desc:
+          - '$20000'
+     phantom:
+        preco: 20000
+        cmd: 'pex user $player$ add xampspvp.kit.phantom'
+        sem_dinheiro: '&c* &7Você não tem coins suficientes para isso!'
+        comprou_kit: '&a* &7Você comprou esse kit!'
+        name: '&7Kit &8» &aPhantom'
+        desc:
+          - '$20000'
+     urgal:
+        preco: 20000
+        cmd: 'pex user $player$ add xampspvp.kit.urgal'
+        sem_dinheiro: '&c* &7Você não tem coins suficientes para isso!'
+        comprou_kit: '&a* &7Você comprou esse kit!'
+        name: '&7Kit &8» &aUrgal'
+        desc:
+          - '$20000'
+     grandpa:
+        preco: 20000
+        cmd: 'pex user $player$ add xampspvp.kit.grandpa'
+        sem_dinheiro: '&c* &7Você não tem coins suficientes para isso!'
+        comprou_kit: '&a* &7Você comprou esse kit!'
+        name: '&7Kit &8» &aGrandpa'
+        desc:
+          - '$20000'
+     snail:
+        preco: 20000
+        cmd: 'pex user $player$ add xampspvp.kit.snail'
+        sem_dinheiro: '&c* &7Você não tem coins suficientes para isso!'
+        comprou_kit: '&a* &7Você comprou esse kit!'
+        name: '&7Kit &8» &aSnail'
+        desc:
+          - '$20000'
+     backpacker:
+        preco: 20000
+        cmd: 'pex user $player$ add xampspvp.kit.backpacker'
+        sem_dinheiro: '&c* &7Você não tem coins suficientes para isso!'
+        comprou_kit: '&a* &7Você comprou esse kit!'
+        name: '&7Kit &8» &aBackpacker'
+        desc:
+          - '$20000'
+     hulk:
+        preco: 20000
+        cmd: 'pex user $player$ add xampspvp.kit.hulk'
+        sem_dinheiro: '&c* &7Você não tem coins suficientes para isso!'
+        comprou_kit: '&a* &7Você comprou esse kit!'
+        name: '&7Kit &8» &aHulk'
+        desc:
+          - '$20000'
+     monk:
+        preco: 20000
+        cmd: 'pex user $player$ add xampspvp.kit.monk'
+        sem_dinheiro: '&c* &7Você não tem coins suficientes para isso!'
+        comprou_kit: '&a* &7Você comprou esse kit!'
+        name: '&7Kit &8» &aMonk'
+        desc:
+          - '$20000'
+     stomper:
+        preco: 20000
+        cmd: 'pex user $player$ add xampspvp.kit.stomper'
+        sem_dinheiro: '&c* &7Você não tem coins suficientes para isso!'
+        comprou_kit: '&a* &7Você comprou esse kit!'
+        name: '&7Kit &8» &aStomper'
+        desc:
+          - '$20000'
+     viper:
+        preco: 20000
+        cmd: 'pex user $player$ add xampspvp.kit.viper'
+        sem_dinheiro: '&c* &7Você não tem coins suficientes para isso!'
+        comprou_kit: '&a* &7Você comprou esse kit!'
+        name: '&7Kit &8» &aViper'
+        desc:
+          - '$20000'
+     poseidon:
+        preco: 20000
+        cmd: 'pex user $player$ add xampspvp.kit.poseidon'
+        sem_dinheiro: '&c* &7Você não tem coins suficientes para isso!'
+        comprou_kit: '&a* &7Você comprou esse kit!'
+        name: '&7Kit &8» &aPoseidon'
+        desc:
+          - '$20000'
+     fireman:
+        preco: 20000
+        cmd: 'pex user $player$ add xampspvp.kit.fireman'
+        sem_dinheiro: '&c* &7Você não tem coins suficientes para isso!'
+        comprou_kit: '&a* &7Você comprou esse kit!'
+        name: '&7Kit &8» &aFireman'
+        desc:
+          - '$20000'
+     swticher:
+        preco: 20000
+        cmd: 'pex user $player$ add xampspvp.kit.swticher'
+        sem_dinheiro: '&c* &7Você não tem coins suficientes para isso!'
+        comprou_kit: '&a* &7Você comprou esse kit!'
+        name: '&7Kit &8» &aSwticher'
+        desc:
+          - '$20000'
+     ninja:
+        preco: 20000
+        cmd: 'pex user $player$ add xampspvp.kit.ninja'
+        sem_dinheiro: '&c* &7Você não tem coins suficientes para isso!'
+        comprou_kit: '&a* &7Você comprou esse kit!'
+        name: '&7Kit &8» &aNinja'
+        desc:
+          - '$20000'
+     ryu:
+        preco: 20000
+        cmd: 'pex user $player$ add xampspvp.kit.ryu'
+        sem_dinheiro: '&c* &7Você não tem coins suficientes para isso!'
+        comprou_kit: '&a* &7Você comprou esse kit!'
+        name: '&7Kit &8» &aRyu'
+        desc:
+          - '$20000'
+     berserker:
+        preco: 20000
+        cmd: 'pex user $player$ add xampspvp.kit.berserker'
+        sem_dinheiro: '&c* &7Você não tem coins suficientes para isso!'
+        comprou_kit: '&a* &7Você comprou esse kit!'
+        name: '&7Kit &8» &aBerserker'
+        desc:
+          - '$20000'
+     gladiator:
+        preco: 20000
+        cmd: 'pex user $player$ add xampspvp.kit.gladiator'
+        sem_dinheiro: '&c* &7Você não tem coins suficientes para isso!'
+        comprou_kit: '&a* &7Você comprou esse kit!'
+        name: '&7Kit &8» &aGladiator'
+        desc:
+          - '$20000'
+     souper:
+        preco: 20000
+        cmd: 'pex user $player$ add xampspvp.kit.souper'
+        sem_dinheiro: '&c* &7Você não tem coins suficientes para isso!'
+        comprou_kit: '&a* &7Você comprou esse kit!'
+        name: '&7Kit &8» &aSouper'
+        desc:
+          - '$20000'
+     camel:
+        preco: 20000
+        cmd: 'pex user $player$ add xampspvp.kit.camel'
+        sem_dinheiro: '&c* &7Você não tem coins suficientes para isso!'
+        comprou_kit: '&a* &7Você comprou esse kit!'
+        name: '&7Kit &8» &aCamel'
+        desc:
+          - '$20000'
+     neurotic:
+        preco: 20000
+        cmd: 'pex user $player$ add xampspvp.kit.neurotic'
+        sem_dinheiro: '&c* &7Você não tem coins suficientes para isso!'
+        comprou_kit: '&a* &7Você comprou esse kit!'
+        name: '&7Kit &8» &aNeurotic'
+        desc:
+          - '$20000'
+     vaccum:
+        preco: 20000
+        cmd: 'pex user $player$ add xampspvp.kit.vaccum'
+        sem_dinheiro: '&c* &7Você não tem coins suficientes para isso!'
+        comprou_kit: '&a* &7Você comprou esse kit!'
+        name: '&7Kit &8» &aVaccum'
+        desc:
+          - '$20000'
+     ajnin:
+        preco: 20000
+        cmd: 'pex user $player$ add xampspvp.kit.ajnin'
+        sem_dinheiro: '&c* &7Você não tem coins suficientes para isso!'
+        comprou_kit: '&a* &7Você comprou esse kit!'
+        name: '&7Kit &8» &aAjnin'
+        desc:
+          - '$20000'
+     forcefield:
+        preco: 20000
+        cmd: 'pex user $player$ add xampspvp.kit.forcefield'
+        sem_dinheiro: '&c* &7Você não tem coins suficientes para isso!'
+        comprou_kit: '&a* &7Você comprou esse kit!'
+        name: '&7Kit &8» &aForcefield'
+        desc:
+          - '$20000'
+     neo:
+        preco: 20000
+        cmd: 'pex user $player$ add xampspvp.kit.neo'
+        sem_dinheiro: '&c* &7Você não tem coins suficientes para isso!'
+        comprou_kit: '&a* &7Você comprou esse kit!'
+        name: '&7Kit &8» &aNeo'
+        desc:
+          - '$20000'
+     frosty:
+        preco: 20000
+        cmd: 'pex user $player$ add xampspvp.kit.frosty'
+        sem_dinheiro: '&c* &7Você não tem coins suficientes para isso!'
+        comprou_kit: '&a* &7Você comprou esse kit!'
+        name: '&7Kit &8» &aFrosty'
+        desc:
+          - '$20000'
+     grappler:
+        preco: 20000
+        cmd: 'pex user $player$ add xampspvp.kit.grappler'
+        sem_dinheiro: '&c* &7Você não tem coins suficientes para isso!'
+        comprou_kit: '&a* &7Você comprou esse kit!'
+        name: '&7Kit &8» &aGrappler'
+        desc:
+          - '$20000'

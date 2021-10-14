@@ -1,0 +1,104 @@
+# Mensagens gerais do servidor!
+Mensagens:
+  Sem_Permissao: '&c* &7Você não tem permissão para usar esse comando!'
+  Jogador_OFF: '&c* &7Jogador offline!'
+  Console: '&c* &7Esse é um comando de jogadores apenas!'
+  Site: '&a* &7Entre em nosso site: nemesismc.minemarket.com.br'
+  Entrou: '&8[%rank%&8] %grupo% &7%player% entrou no servidor!'
+  Saiu: '&8[%rank%&8] %grupo% &7%player% saiu do servidor!'
+  Discord: '&a* &7Entre em nosso discord em &e%discord%'
+  
+Spawn:
+  Entrou: '&a* &7Você ganhou a proteção do spawn!'
+  Saiu: '&a* &7Você perdeu a proteção do spawn!'
+  Ratio: 3
+  
+# MOTD do servidor!
+Motd: '&f&lNemesis&1&lMC &7- KitPvP &8(&a1.0&8)%n%&7Jogadores online no momento: &a&o%players%'
+Slots: 20
+
+# Configs gerais do Plugin
+Gerais:
+  LowerCase: false
+  Discord: 'discord.gg/QHsEu3w'
+
+# Alteração no TAB do servidor
+Tab_Superior: '%linha%                 &dNemesis&5MC                    %linha%'
+Tab_Inferior: '%linha%&f %discord% %linha%'
+
+# Automensagens
+automsg:
+  habilitar: true
+  delay: 120
+  msgs: 
+     - '&e* &7Acesse nosso discord! %discord%'
+
+servidores:
+  lobby:
+    nome: 'Lobby'
+    ip: 'localhost'
+
+# Configuração do MySQL
+mysql:
+   database: 'collection_E9Oz8e'
+   host: '144.217.10.143'
+   porta: '3306'
+   user: 'india-9K%3s!NYJw'
+   senha: 'CCmBW62PC!Ca('
+
+# TAGs dos servidor
+tags:
+  fundador: '&4&lFundador&7 '
+  diretor: '&b&lDiretor&7 '
+  admin: '&c&lAdmin&7 '
+  modplus: '&5&lMod+&7 '
+  modgc: '&5&lModGC&7 '
+  mod: '&5&lMod&7 '
+  trial: '&d&lTrial&7 '
+  helper: '&e&lHelper&7 '
+  builder: '&a&lBuilder&7 '
+  ruby: '&c&lRuby&7 '
+  sapphire: '&1&lSapphire&7 '
+  streamer: '&5&lStreamer&7 '
+  youtuberplus: '&3&lYT+&7 '
+  youtuber: '&b&lYT&7 '
+  miniyt: '&3&lMiniYT&7 '
+  beta: '&6&lBeta&7 '
+  alpha: '&a&lAlpha&7 '
+  normal: '&7'
+  
+arena1:
+  x: -760.4642473005745
+  y: 70.0
+  z: -1282.7808527790132
+  pitch: 8.549823
+  yaw: 130.19998
+  world: world
+arena2:
+  x: -768.950784922468
+  y: 70.0
+  z: -1282.4252385273828
+  pitch: 10.199808
+  yaw: 244.64993
+  world: world
+arena3:
+  x: -769.3037271793263
+  y: 70.0
+  z: -1289.7941300731027
+  pitch: 7.199801
+  yaw: 281.69998
+  world: world
+arena4:
+  x: -760.5221540689073
+  y: 70.0
+  z: -1290.7923137238065
+  pitch: 7.199801
+  yaw: 281.69998
+  world: world
+arena5:
+  x: -764.4494985094517
+  y: 70.0625
+  z: -1286.571073797029
+  pitch: 22.49981
+  yaw: 31.350067
+  world: world
