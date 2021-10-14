@@ -1,0 +1,555 @@
+kits:
+   none:
+      ability: 'None'
+   ajnin:
+      sword: '&7Espada'
+      sharp: true
+      soup: true
+      soup_name: '&7Sopa'
+      recraft: true
+      red_mushroom: '&cCogumelo Vermelho'
+      brown_mushroom: '&6Cogumelo Marrom'
+      bowl: '&7Potinho'
+      armor: true
+      armor_name: '&6Armadura'
+      ability: 'Ajnin'
+      msg_cooldown: '&e* &7Habilidade em cooldown!'
+      msg_teleported: '&a* &7Teleportado!'
+      msg_hited_far: '&c* &7Jogador longe demais!'
+      use_kit_text: '&7Kit &8» &aAjnin'
+      use_kit_title: '&7Kit &8» &aAjnin'
+      gui_name: '&7Kit &8» &aAjnin'
+   archer:
+      sword: '&7Espada'
+      sharp: true
+      soup: true
+      soup_name: '&7Sopa'
+      recraft: true
+      red_mushroom: '&cCogumelo Vermelho'
+      brown_mushroom: '&6Cogumelo Marrom'
+      bowl: '&7Potinho'
+      bow: '&9Bow'
+      arrow: '&9Arrow'
+      armor: true
+      armor_name: '&6Armadura'
+      ability: 'Archer'
+      use_kit_text: '&7Kit &8» &aArcher'
+      use_kit_title: '&7Kit &8» &aArcher'
+      gui_name: '&7Kit &8» &aArcher'
+   anchor:
+      sword: '&7Espada'
+      sharp: true
+      soup: true
+      soup_name: '&7Sopa'
+      recraft: true
+      red_mushroom: '&cCogumelo Vermelho'
+      brown_mushroom: '&6Cogumelo Marrom'
+      bowl: '&7Potinho'
+      armor: true
+      armor_name: '&6Armadura'
+      ability: 'Anchor'
+      use_kit_text: '&7Kit &8» &aAnchor'
+      use_kit_title: '&7Kit &8» &aAnchor'
+      gui_name: '&7Kit &8» &aAnchor'
+   backpacker:
+      sword: '&7Espada'
+      sharp: true
+      soup: true
+      soup_name: '&7Sopa'
+      recraft: true
+      red_mushroom: '&cCogumelo Vermelho'
+      brown_mushroom: '&6Cogumelo Marrom'
+      bowl: '&7Potinho'
+      armor: true
+      armor_name: '&6Armadura'
+      ability: 'Backpacker'
+      msg_cooldown: '&e* &7Habilidade em cooldown!'
+      kit_item: '&9BackPack'
+      kit_gui: '&9BackPack'
+      kit_soup: '&7Sopa'
+      use_kit_text: '&7Kit &8» &aBackpacker'
+      use_kit_title: '&7Kit &8» &aBackpacker'
+      gui_name: '&7Kit &8» &aBackpacker'
+   berserker: 
+      sword: '&7Espada'
+      sharp: true
+      soup: true
+      soup_name: '&7Sopa'
+      recraft: true
+      red_mushroom: '&cCogumelo Vermelho'
+      brown_mushroom: '&6Cogumelo Marrom'
+      bowl: '&7Potinho'
+      armor: true
+      armor_name: '&6Armadura'
+      ability: 'Berserker'
+      msg_angry: '&a* &7Saiu da jaula o monstro!'
+      use_kit_text: '&7Kit &8» &aBerserker'
+      use_kit_title: '&7Kit &8» &aBerserker'
+      gui_name: '&7Kit &8» &aBerserker'
+   pvp:
+      sword: '&7Espada'
+      sharp: true
+      soup: true
+      soup_name: '&7Sopa'
+      recraft: true
+      red_mushroom: '&cCogumelo Vermelho'
+      brown_mushroom: '&6Cogumelo Marrom'
+      bowl: '&7Potinho'
+      armor: true
+      armor_name: '&6Armadura'
+      ability: 'PvP'
+      use_kit_text: '&7Kit &8» &aPvP'
+      use_kit_title: '&7Kit &8» &aPvP'
+      gui_name: '&7Kit &8» &aPvP'
+   grappler:
+      sword: '&7Espada'
+      sharp: true
+      soup: true
+      soup_name: '&7Sopa'
+      recraft: true
+      red_mushroom: '&cCogumelo Vermelho'
+      brown_mushroom: '&6Cogumelo Marrom'
+      bowl: '&7Potinho'
+      armor: true
+      armor_name: '&6Armadura'
+      ability: 'Grappler'
+      kit_item: '&6Grappler'
+      use_kit_text: '&7Kit &8» &aGrappler'
+      use_kit_title: '&7Kit &8» &aGrappler'
+      gui_name: '&7Kit &8» &aGrappler'
+      msg_cooldown: '&e* &7Habilidade em cooldown!'
+   kangaroo:
+      sword: '&7Espada'
+      sharp: true
+      soup: true
+      soup_name: '&7Sopa'
+      recraft: true
+      red_mushroom: '&cCogumelo Vermelho'
+      brown_mushroom: '&6Cogumelo Marrom'
+      bowl: '&7Potinho'
+      armor: true
+      armor_name: '&6Armadura'
+      ability: 'Kangaroo'
+      kit_item: '&9Kangaroo'
+      use_kit_text: '&7Kit &8» &aKangaroo'
+      use_kit_title: '&7Kit &8» &aKangaroo'
+      gui_name: '&7Kit &8» &aKangaroo'
+      msg_combat: '&e* &7Você não pode usar a habilidade em combate!'
+   fisherman:
+      sword: '&7Espada'
+      sharp: true
+      soup: true
+      soup_name: '&7Sopa'
+      recraft: true
+      red_mushroom: '&cCogumelo Vermelho'
+      brown_mushroom: '&6Cogumelo Marrom'
+      bowl: '&7Potinho'
+      armor: true
+      armor_name: '&6Armadura'
+      ability: 'Fisherman'
+      kit_item: '&9Fisherman'
+      use_kit_text: '&7Kit &8» &aFisherman'
+      use_kit_title: '&7Kit &8» &aFisherman'
+      gui_name: '&7Kit &8» &aFisherman'
+   sonic:
+      sword: '&7Espada'
+      sharp: true
+      soup: true
+      soup_name: '&7Sopa'
+      recraft: true
+      red_mushroom: '&cCogumelo Vermelho'
+      brown_mushroom: '&6Cogumelo Marrom'
+      bowl: '&7Potinho'
+      armor: true
+      armor_name: '&6Armadura'
+      ability: 'Sonic'
+      msg_cooldown: '&e* &7Habilidade em cooldown!'
+      msg_kit_use: '&e* &7Você usou a habilidade!'
+      kit_item: '&9Sonic'
+      use_kit_text: '&7Kit &8» &aSonic'
+      use_kit_title: '&7Kit &8» &aSonic'
+      gui_name: '&7Kit &8» &aSonic'
+   deshfire:
+      sword: '&7Espada'
+      sharp: true
+      soup: true
+      soup_name: '&7Sopa'
+      recraft: true
+      red_mushroom: '&cCogumelo Vermelho'
+      brown_mushroom: '&6Cogumelo Marrom'
+      bowl: '&7Potinho'
+      armor: true
+      armor_name: '&6Armadura'
+      ability: 'Deshfire'
+      msg_cooldown: '&e* &7Habilidade em cooldown!'
+      msg_kit_use: '&e* &7Você usou a habilidade!'
+      kit_item: '&9Deshfire'
+      use_kit_text: '&7Kit &8» &aDeshfire'
+      use_kit_title: '&7Kit &8» &aDeshfire'
+      gui_name: '&7Kit &8» &aDeshfire'
+   reaper:
+      sword: '&7Espada'
+      sharp: true
+      soup: true
+      soup_name: '&7Sopa'
+      recraft: true
+      red_mushroom: '&cCogumelo Vermelho'
+      brown_mushroom: '&6Cogumelo Marrom'
+      bowl: '&7Potinho'
+      armor: true
+      armor_name: '&6Armadura'
+      ability: 'Reaper'
+      kit_item: '&9Reaper'
+      use_kit_text: '&7Kit &8» &aReaper'
+      use_kit_title: '&7Kit &8» &aReaper'
+      gui_name: '&7Kit &8» &aReaper'
+   phantom:
+      sword: '&7Espada'
+      sharp: true
+      soup: true
+      soup_name: '&7Sopa'
+      recraft: true
+      red_mushroom: '&cCogumelo Vermelho'
+      brown_mushroom: '&6Cogumelo Marrom'
+      bowl: '&7Potinho'
+      armor: true
+      armor_name: '&6Armadura'
+      ability: 'Phantom'
+      kit_item: '&9Phantom'
+      msg_cooldown: '&e* &7Habilidade em cooldown!'
+      msg_kit_use: '&e* &7Você usou a habilidade!'
+      use_kit_text: '&7Kit &8» &aPhantom'
+      use_kit_title: '&7Kit &8» &aPhantom'
+      gui_name: '&7Kit &8» &aPhantom'
+   urgal:
+      sword: '&7Espada'
+      sharp: true
+      soup: true
+      soup_name: '&7Sopa'
+      recraft: true
+      red_mushroom: '&cCogumelo Vermelho'
+      brown_mushroom: '&6Cogumelo Marrom'
+      bowl: '&7Potinho'
+      armor: true
+      armor_name: '&6Armadura'
+      ability: 'Urgal'
+      kit_item: '&9Urgal'
+      kit_amount: 2
+      use_kit_text: '&7Kit &8» &aUrgal'
+      use_kit_title: '&7Kit &8» &aUrgal'
+      gui_name: '&7Kit &8» &aUrgal'
+   grandpa:
+      sword: '&7Espada'
+      sharp: true
+      soup: true
+      soup_name: '&7Sopa'
+      recraft: true
+      red_mushroom: '&cCogumelo Vermelho'
+      brown_mushroom: '&6Cogumelo Marrom'
+      bowl: '&7Potinho'
+      armor: true
+      armor_name: '&6Armadura'
+      ability: 'Urgal'
+      kit_item: '&9Grandpa'
+      kit_knock_level: 2
+      use_kit_text: '&7Kit &8» &aGrandpa'
+      use_kit_title: '&7Kit &8» &aGrandpa'
+      gui_name: '&7Kit &8» &aGrandpa'
+   snail:
+      sword: '&7Espada'
+      sharp: true
+      soup: true
+      soup_name: '&7Sopa'
+      recraft: true
+      red_mushroom: '&cCogumelo Vermelho'
+      brown_mushroom: '&6Cogumelo Marrom'
+      bowl: '&7Potinho'
+      armor: true
+      armor_name: '&6Armadura'
+      ability: 'Snail'
+      use_kit_text: '&7Kit &8» &aSnail'
+      use_kit_title: '&7Kit &8» &aSnail'
+      gui_name: '&7Kit &8» &aSnail'
+   hulk:
+      sword: '&7Espada'
+      sharp: true
+      soup: true
+      soup_name: '&7Sopa'
+      recraft: true
+      red_mushroom: '&cCogumelo Vermelho'
+      brown_mushroom: '&6Cogumelo Marrom'
+      bowl: '&7Potinho'
+      armor: true
+      armor_name: '&6Armadura'
+      ability: 'Hulk'
+      msg_cooldown: '&e* &7Habilidade em cooldown!'
+      use_kit_text: '&7Kit &8» &aHulk'
+      use_kit_title: '&7Kit &8» &aHulk'
+      gui_name: '&7Kit &8» &aHulk'
+   monk:
+      sword: '&7Espada'
+      sharp: true
+      soup: true
+      soup_name: '&7Sopa'
+      recraft: true
+      red_mushroom: '&cCogumelo Vermelho'
+      brown_mushroom: '&6Cogumelo Marrom'
+      bowl: '&7Potinho'
+      armor: true
+      armor_name: '&6Armadura'
+      ability: 'Monk'
+      kit_item: '&9Monk'
+      msg_kit_use: '&e* &7Você usou a habilidade!'
+      msg_cooldown: '&e* &7Habilidade em cooldown!'
+      msg_monked: '&a* &7Você usou a habilidade em $player$'
+      use_kit_text: '&7Kit &8» &aMonk'
+      use_kit_title: '&7Kit &8» &aMonk'
+      gui_name: '&7Kit &8» &aMonk'
+   stomper:
+      sword: '&7Espada'
+      sharp: true
+      soup: true
+      soup_name: '&7Sopa'
+      recraft: true
+      red_mushroom: '&cCogumelo Vermelho'
+      brown_mushroom: '&6Cogumelo Marrom'
+      bowl: '&7Potinho'
+      armor: true
+      armor_name: '&6Armadura'
+      ability: 'Stomper'
+      use_kit_text: '&7Kit &8» &aStomper'
+      use_kit_title: '&7Kit &8» &aStomper'
+      gui_name: '&7Kit &8» &aStomper'
+   viper:
+      sword: '&7Espada'
+      sharp: true
+      soup: true
+      soup_name: '&7Sopa'
+      recraft: true
+      red_mushroom: '&cCogumelo Vermelho'
+      brown_mushroom: '&6Cogumelo Marrom'
+      bowl: '&7Potinho'
+      armor: true
+      armor_name: '&6Armadura'
+      ability: 'Viper'
+      use_kit_text: '&7Kit &8» &aViper'
+      use_kit_title: '&7Kit &8» &aViper'
+      gui_name: '&7Kit &8» &aViper'
+   poseidon:
+      sword: '&7Espada'
+      sharp: true
+      soup: true
+      soup_name: '&7Sopa'
+      recraft: true
+      red_mushroom: '&cCogumelo Vermelho'
+      brown_mushroom: '&6Cogumelo Marrom'
+      bowl: '&7Potinho'
+      armor: true
+      armor_name: '&6Armadura'
+      ability: 'Poseidon'
+      use_kit_text: '&7Kit &8» &aPoseidon'
+      use_kit_title: '&7Kit &8» &aPoseidon'
+      gui_name: '&7Kit &8» &aPoseidon'
+   fireman:
+      sword: '&7Espada'
+      sharp: true
+      soup: true
+      soup_name: '&7Sopa'
+      recraft: true
+      red_mushroom: '&cCogumelo Vermelho'
+      brown_mushroom: '&6Cogumelo Marrom'
+      bowl: '&7Potinho'
+      armor: true
+      armor_name: '&6Armadura'
+      ability: 'Fireman'
+      use_kit_text: '&7Kit &8» &aFireman'
+      use_kit_title: '&7Kit &8» &aFireman'
+      gui_name: '&7Kit &8» &aFireman'
+   switcher:
+      sword: '&7Espada'
+      sharp: true
+      soup: true
+      soup_name: '&7Sopa'
+      recraft: true
+      red_mushroom: '&cCogumelo Vermelho'
+      brown_mushroom: '&6Cogumelo Marrom'
+      bowl: '&7Potinho'
+      armor: true
+      armor_name: '&6Armadura'
+      ability: 'Switcher'
+      kit_item: '&9Switcher'
+      kit_amount: 8
+      use_kit_text: '&7Kit &8» &aSwitcher'
+      use_kit_title: '&7Kit &8» &aSwitcher'
+      gui_name: '&7Kit &8» &aSwitcher'
+   ninja:
+      sword: '&7Espada'
+      sharp: true
+      soup: true
+      soup_name: '&7Sopa'
+      recraft: true
+      red_mushroom: '&cCogumelo Vermelho'
+      brown_mushroom: '&6Cogumelo Marrom'
+      bowl: '&7Potinho'
+      armor: true
+      armor_name: '&6Armadura'
+      ability: 'Ninja'
+      msg_cooldown: '&e* &7Habilidade em cooldown!'
+      msg_teleported: '&a* &7Teleportado!'
+      msg_hited_far: '&c* &7Jogador longe demais!'
+      use_kit_text: '&7Kit &8» &aNinja'
+      use_kit_title: '&7Kit &8» &aNinja'
+      gui_name: '&7Kit &8» &aNinja'
+   ryu:
+      sword: '&7Espada'
+      sharp: true
+      soup: true
+      soup_name: '&7Sopa'
+      recraft: true
+      red_mushroom: '&cCogumelo Vermelho'
+      brown_mushroom: '&6Cogumelo Marrom'
+      bowl: '&7Potinho'
+      armor: true
+      armor_name: '&6Armadura'
+      ability: 'Ryu'
+      msg_kit_use: '&e* &7Você usou a habilidade!'
+      msg_cooldown: '&e* &7Habilidade em cooldown!'
+      kit_item: '&9Haduken'
+      use_kit_text: '&7Kit &8» &aRyu'
+      use_kit_title: '&7Kit &8» &aRyu'
+      gui_name: '&7Kit &8» &aRyu'
+   gladiator:
+      sword: '&7Espada'
+      sharp: true
+      soup: true
+      soup_name: '&7Sopa'
+      recraft: true
+      red_mushroom: '&cCogumelo Vermelho'
+      brown_mushroom: '&6Cogumelo Marrom'
+      bowl: '&7Potinho'
+      armor: true
+      armor_name: '&6Armadura'
+      ability: 'Gladiator'
+      msg_fighting: '&c* &7Voce ja esta lutando!'
+      msg_loc_error: '&c* &7Sem usar aqui!'
+      msg_pulled: '&a* &7Voce desafiou um jogador! 5 segundos de invencibilidade!'
+      msg_pulled_who: '&a* &7Voce foi desafiado, 5 segundos de invencibilidade!'
+      msg_no_winner: '&c* &7Sem ganhador na luta!'
+      msg_won: '&a* &7Voce ganhou a batalha contra $player$!'
+      kit_item: '&91v1'
+      use_kit_text: '&7Kit &8» &aGladiator'
+      use_kit_title: '&7Kit &8» &aGladiator'
+      gui_name: '&7Kit &8» &aGladiator'
+   souper:
+      sword: '&7Espada'
+      sharp: true
+      soup: true
+      soup_name: '&7Sopa'
+      recraft: true
+      red_mushroom: '&cCogumelo Vermelho'
+      brown_mushroom: '&6Cogumelo Marrom'
+      bowl: '&7Potinho'
+      armor: true
+      armor_name: '&6Armadura'
+      ability: 'Souper'
+      msg_filled: '&a* &7Inventario refilado!'
+      use_kit_text: '&7Kit &8» &aSouper'
+      use_kit_title: '&7Kit &8» &aSouper'
+      gui_name: '&7Kit &8» &aSouper'
+   camel:
+      sword: '&7Espada'
+      sharp: true
+      soup: true
+      soup_name: '&7Sopa'
+      recraft: true
+      red_mushroom: '&cCogumelo Vermelho'
+      brown_mushroom: '&6Cogumelo Marrom'
+      bowl: '&7Potinho'
+      armor: true
+      armor_name: '&6Armadura'
+      ability: 'Camel'
+      use_kit_text: '&7Kit &8» &aCamel'
+      use_kit_title: '&7Kit &8» &aCamel'
+      gui_name: '&7Kit &8» &aCamel'
+   neurotic:
+      sword: '&7Espada'
+      sharp: true
+      soup: true
+      soup_name: '&7Sopa'
+      recraft: true
+      red_mushroom: '&cCogumelo Vermelho'
+      brown_mushroom: '&6Cogumelo Marrom'
+      bowl: '&7Potinho'
+      armor: true
+      armor_name: '&6Armadura'
+      ability: 'Neurotic'
+      use_kit_text: '&7Kit &8» &aNeurotic'
+      use_kit_title: '&7Kit &8» &aNeurotic'
+      gui_name: '&7Kit &8» &aNeurotic'
+   vaccum:
+      sword: '&7Espada'
+      sharp: true
+      soup: true
+      soup_name: '&7Sopa'
+      recraft: true
+      red_mushroom: '&cCogumelo Vermelho'
+      brown_mushroom: '&6Cogumelo Marrom'
+      bowl: '&7Potinho'
+      armor: true
+      armor_name: '&6Armadura'
+      ability: 'Vaccum'
+      kit_item: '&9Vaccum'
+      msg_pull: ''
+      msg_kit_use: '&e* &7Você usou a habilidade!'
+      msg_cooldown: '&e* &7Habilidade em cooldown!'
+      use_kit_text: '&7Kit &8» &aVaccum'
+      use_kit_title: '&7Kit &8» &aVaccum'
+      gui_name: '&7Kit &8» &aVaccum'
+   forcefield:
+      sword: '&7Espada'
+      sharp: true
+      soup: true
+      soup_name: '&7Sopa'
+      recraft: true
+      red_mushroom: '&cCogumelo Vermelho'
+      brown_mushroom: '&6Cogumelo Marrom'
+      bowl: '&7Potinho'
+      armor: true
+      armor_name: '&6Armadura'
+      ability: 'Forcefield'
+      kit_item: '&9Forcefield'
+      msg_kit_use: '&e* &7Você usou a habilidade!'
+      msg_cooldown: '&e* &7Habilidade em cooldown!'
+      use_kit_text: '&7Kit &8» &aForcefield'
+      use_kit_title: '&7Kit &8» &aForcefield'
+      gui_name: '&7Kit &8» &aForcefield'
+   neo:
+      sword: '&7Espada'
+      sharp: true
+      soup: true
+      soup_name: '&7Sopa'
+      recraft: true
+      red_mushroom: '&cCogumelo Vermelho'
+      brown_mushroom: '&6Cogumelo Marrom'
+      bowl: '&7Potinho'
+      armor: true
+      armor_name: '&6Armadura'
+      ability: 'Neo'
+      use_kit_text: '&7Kit &8» &aNeo'
+      use_kit_title: '&7Kit &8» &aNeo'
+      gui_name: '&7Kit &8» &aNeo'
+   frosty:
+      sword: '&7Espada'
+      sharp: true
+      soup: true
+      soup_name: '&7Sopa'
+      recraft: true
+      red_mushroom: '&cCogumelo Vermelho'
+      brown_mushroom: '&6Cogumelo Marrom'
+      bowl: '&7Potinho'
+      armor: true
+      armor_name: '&6Armadura'
+      ability: 'Frosty'
+      use_kit_text: '&7Kit &8» &aFrosty'
+      use_kit_title: '&7Kit &8» &aFrosty'
+      gui_name: '&7Kit &8» &aFrosty'
